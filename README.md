@@ -1,5 +1,7 @@
 # pDynamo-mirror
-Mirror of the pDynamo quantum chemistry software, which does not currently use a public version control repository
+*This is a mirror of the pDynamo computational chemistry software, which does not currently use a public version control repository. It is provided to improve visibility of this package and its components. I, Matt Ernst, have no relationship to the original developers.*
+
+This software is governed by the [CeCILL license](http://www.cecill.info/index.en.html)
 
 https://sites.google.com/site/pdynamomodeling/
 
