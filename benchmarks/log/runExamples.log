@@ -1,0 +1,50 @@
+
+Running examples ...
+
+This may take a few minutes ...
+
+Outputs and other files are in /home/administrator/Work/scratch/bookExamples.
+
+--------------------------------------------------------------------------------
+Book Examples:
+--------------------------------------------------------------------------------
+
+Example0                                          Pass                    0.030s
+Example1                                          Pass                    0.450s
+Example2                                          Pass                    0.465s
+Example3                                          Pass                    0.535s
+Example4                                          Pass                    0.451s
+Example5                                          Pass                    0.623s
+Example6                                          Pass                    2.282s
+Example7                                          Pass                    0.545s
+Example8                                          Pass                    0.605s
+Example9                                          Pass                    0.612s
+Example10                                         Pass                   16.658s
+Example10XHTML                                    Pass                   16.664s
+Example11                                         Pass                    0.878s
+Example12                                         Pass                    0.657s
+Example13                                         Pass                    0.703s
+Example14                                         Pass                    0.601s
+Example15                                         Pass                    0.678s
+Example16                                         Pass                    2.352s
+Example17                                         Pass                    0.472s
+Example18                                         Pass               12m 43.553s
+Example19                                         Pass                    3.630s
+Example20                                         Pass                6m 42.435s
+Example21                                         Pass               13m 34.616s
+Example22                                         Pass                6m 26.813s
+Example23                                         Pass                1m 44.293s
+Example24                                         Pass                    1.939s
+Example25                                         Pass                3m 45.142s
+Example26                                         Pass            2h  9m 12.827s
+Example27                                         Pass                 3m 1.171s
+Example28                                         Pass                1m 33.510s
+Example26Q                                        Pass                    9.432s
+Example26LJ                                       Pass                    4.869s
+NewExample27                                      Pass                3m 13.363s
+
+--------------------------------------------------------------------------------
+
+All 33 examples were successful.
+
+Total time used:  3 Hours,  3 Minutes, 3.854 Seconds.

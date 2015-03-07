@@ -1,0 +1,5 @@
+N(CCN(CC(=O)[O-])CC(=O)[O-])(CCN(CC(=O)[O-])CC(=O)[O-])CC(=O)[O-]
+C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O
+Nc1ncnc2n(cnc12)[C@@H]3O[C@H](COP([O-])(=O)OP([O-])(=O)OP([O-])([O-])=O)[C@@H](O)[C@H]3O
+Nc1ncnc2n(cnc12)[C@@H]3O[C@H](COP([O-])(=O)OP([O-])([O-])=O)[C@@H](O)[C@H]3O
+Nc1ncnc2n(cnc12)[C@@H]3O[C@H](COP([O-])([O-])=O)[C@@H](O)[C@H]3O

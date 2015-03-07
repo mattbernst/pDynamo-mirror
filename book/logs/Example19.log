@@ -1,0 +1,148 @@
+
+--------------------------------------------------------------------------------
+Summary for PDB File "/home/administrator/Work/pDynamo-1.9.0/book/data/pdb/cramb
+--------------------------------------------------------------------------------
+
+---------------------------- PDB File Record Summary ---------------------------
+Records                =            652  Warnings               =              0
+ATOM   Records         =            642  AUTHOR Records         =              1
+COMPND Records         =              1  END    Records         =              1
+HEADER Records         =              1  MASTER Records         =              1
+SSBOND Records         =              3  TER    Records         =              1
+TITLE  Records         =              1
+--------------------------------------------------------------------------------
+
+----------------------------- PDB Sequence Summary -----------------------------
+Atoms                  =            642  Components             =             46
+Entities               =              1  Linear Polymers        =              1
+--------------------------------------------------------------------------------
+
+------------------------------------
+       Employed PDB Components
+------------------------------------
+    Type              Label
+------------------------------------
+Component   ala
+Component   arg
+Component   asn
+Component   asp
+Component   cys
+Component   glu
+Component   gly
+Component   ile
+Component   leu
+Component   phe
+Component   pro
+Component   ser
+Component   thr
+Component   tyr
+Component   val
+Link        disulfide_bridge_cys_cys
+Link        peptide
+Link        peptide__pro
+Variant     c_terminal
+Variant     deprotonated_asp
+Variant     deprotonated_glu
+Variant     n_terminal
+------------------------------------
+
+Number of atom data extracted from model = 448.
+
+------------------------------- PDB Model Summary ------------------------------
+Atoms                  =            642  Components             =             46
+Entities               =              1  Linear Polymers        =              1
+Bonds                  =            652  Links                  =             48
+Variants               =              4
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+              Summary for System "From Crambin Pdb Structure 1Cbn"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =            642  Number of Heavy Atoms  =            327
+Number of Hydrogens    =            315  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =            642  Bonds                  =            652
+Angles                 =           1183  Dihedrals              =           1747
+Isolates               =              1  Ring Sets              =              5
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                      Summary for Energy Model "OPLS/Full"
+--------------------------------------------------------------------------------
+
+------------------------------------ Summary for MM Model "OPLS" -----------------------------------
+LJ 1-4 Scaling                   =          0.500  El. 1-4 Scaling                  =          0.500
+Number of MM Atoms               =            642  Number of MM Atom Types          =             23
+Total MM Charge                  =           0.00  Fourier Dihedral Terms           =           1920
+Fourier Dihedral Parameters      =            104  Harmonic Angle Terms             =           1183
+Harmonic Angle Parameters        =             48  Harmonic Bond Terms              =            652
+Harmonic Bond Parameters         =             26  Fourier Out-Of-Plane Terms       =            375
+Fourier Out-Of-Plane Parameters  =             12  Exclusions                       =           3548
+1-4 Interactions                 =           1713  Lennard-Jones Form               =           OPLS
+Lennard-Jones Types              =             23  1-4 Lennard-Jones Form           =           OPLS
+1-4 Lennard-Jones Types          =             23
+----------------------------------------------------------------------------------------------------
+
+----------------------------- Full NB Model Summary ----------------------------
+Dielectric                =    1.000000  El. 1-4 Scaling           =    0.500000
+QC/MM Coupling            = RC Coupling
+--------------------------------------------------------------------------------
+
+------------------------------- Sequence Summary -------------------------------
+Number of Atoms            =        642  Number of Components       =         46
+Number of Entities         =          1  Number of Linear Polymers  =          1
+Number of Links            =         48  Number of Variants         =          4
+--------------------------------------------------------------------------------
+
+Coordinates for 194 hydrogens were built.
+
+----------------------------------------
+      Cutoff/Full Energy Difference
+----------------------------------------
+    Inner Cutoff         Difference
+----------------------------------------
+                 1.0           7250.0361
+                 2.0           5921.7064
+                 3.0           4657.5496
+                 4.0           3676.3433
+                 5.0           3024.5346
+                 6.0           2545.8175
+                 7.0           2194.4267
+                 8.0           1943.7141
+                 9.0           1761.1271
+                10.0           1623.1254
+                11.0           1498.1586
+                12.0           1384.8715
+                13.0           1283.1764
+                14.0           1204.3410
+                15.0           1136.0113
+                16.0           1074.1169
+                17.0           1014.6515
+                18.0            961.8709
+                19.0            916.3319
+                20.0            875.2840
+                21.0            837.9000
+                22.0            802.6918
+                23.0            770.4732
+                24.0            740.3925
+                25.0            712.5753
+                26.0            686.6301
+                27.0            662.6486
+                28.0            640.4555
+                29.0            619.8071
+                30.0            600.4631
+                31.0            582.2686
+                32.0            565.1464
+                33.0            549.0039
+                34.0            533.7591
+                35.0            519.3390
+                36.0            505.6781
+                37.0            492.7180
+                38.0            480.4060
+                39.0            468.6946
+                40.0            457.5409
+----------------------------------------

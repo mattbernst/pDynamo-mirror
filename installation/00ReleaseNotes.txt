@@ -1,0 +1,114 @@
+==============
+Release Notes:
+==============
+
+------------------------------
+Version 1.9.0 (November 2014):
+------------------------------
+
+* A minor release with many incremental changes and bug fixes. Changes include many small modifications to
+  help in the transition from Python 2 to Python 3, and the introduction of a more efficient WHAM module
+  (and accompanying tutorial).
+
+------------------------------
+Version 1.8.0 (November 2013):
+------------------------------
+
+* A major release but with changes that should be compatible with version 1.7.2. Changes include:
+
+    - Additional of new capabilities including the reading of CIF files and DCD trajectories, an
+      extensive list of new DFT functionals, and a CI capability and d-orbitals for the MNDO QC models.
+
+    - A generalized import and export facility in pBabel.
+
+    - Optimization and parallelization of some of the code, including:
+
+      - The option to use the optimized ATLAS blas and lapack libraries in place of the built-in ones.
+      - Implementation of a fast non-bonding list update scheme.
+      - OpenMP parallelization of the ABFS non-bonding calculation, some parts of the QC SCF calculation
+        and the parts of a DFT calculation that use numerical integration. 
+      - Parallel NEB using MPI.
+
+---------------------------
+Version 1.7.2 (April 2012):
+---------------------------
+
+* A major release with many changes some of which are not backward compatible. Notable modifications
+include:
+
+    - Cython is used to compile the extension modules and Pyrex is no longer supported.
+
+    - All package parameter directories have been grouped into a single directory.
+
+    - An overhaul of serialization protocols with the aim of making serialization files (PKL and YAML)
+      readable between different versions of the program (eventually).
+
+    - Conversion of all parameters files to YAML from XPK format.
+
+    - Removal of the XML/XPK serialization options.
+
+------------------------
+Version 1.5 (July 2010):
+------------------------
+
+* A major release with many changes that are not backward compatible. Notable modifications include:
+
+    - The name of the pDynamo package is now pMolecule.
+
+    - pMoleculeScripts is now a package.
+
+    - Package tests have been added.
+
+    - Conversion of many keyword argument and variable names to camel case.
+
+    - Windows installation instructions and set up kindly provided by William E. Wheeler.
+
+These changes will require the editing of user scripts and will also cause most existing "pkl" and
+"xpk" files to be unreadable. The latter will need to be reconstructed.
+
+---------------------------
+Version 1.4.2 (April 2010):
+---------------------------
+
+* A minor release to correct some bugs and provide some additional capabilities. Many changes.
+
+-------------------------------
+Version 1.4.1 (September 2008):
+-------------------------------
+
+* A minor release to correct some bugs and provide some additional capabilities. Changes include:
+
+    - Correction of a bug (in blas) so that 64-bit machines are now supported.
+
+    - A preliminary, complete version of the PDB tutorial is available.
+
+    - A getting started tutorial has been added that employs some of the examples from the pDynamo
+      book.
+
+    - pDynamo's PDB data structures have been reorganized. These will likely change again though.
+
+    - Most pDynamo data structures can now be pickled. Usage follows XMLPickle/XMLUnpickle (with
+      Pickle/Unpickle instead) but is faster and takes up less disk space.
+
+    - Installation now works with the latest versions of Pyrex and also of Cython.
+
+    - A velocity Verlet Langevin dynamics algorithm has been added.
+
+-----------------------
+Version 1.4 (May 2008):
+-----------------------
+
+* Major changes:
+
+    - Addition of an in-built DFT QC method.
+
+    - Coupling to the ORCA ab initio and DFT QC program.
+
+    - Addition of the PM6 semi-empirical method (sp orbitals only for the moment).
+
+    - Replacement of the AM1 semi-empirical method by the OPLS-AA force field in the examples
+      involving cyclohexane. The programs are the same (except for the use of a different potential)
+      but the OPLS-AA force gives reasonable cyclohexane energies and structures whereas the AM1
+      method does not.
+
+* Many minor changes (additions, bug fixes, reorganizations).

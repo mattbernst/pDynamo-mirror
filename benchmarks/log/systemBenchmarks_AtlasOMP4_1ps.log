@@ -1,0 +1,466 @@
+
+----------------------------------------------------------------------------------------------------
+                                      Text File Reader Warnings
+----------------------------------------------------------------------------------------------------
+   Line                                        Message                                     Severity
+----------------------------------------------------------------------------------------------------
+4908                                   Unable to process non-epsilon/sigma nonbond for FE.   Warning
+----------------------------------------------------------------------------------------------------
+
+There have been warnings. Proceed with caution!
+
+
+---------------------- CHARMM Parameter File Line Summary ----------------------
+Angle                  =            668  Bond                   =            259
+CMap                   =            727  Dihedral               =           1134
+HBond                  =              1  Improper               =             71
+NonBond                =            165  Title                  =              7
+--------------------------------------------------------------------------------
+
+-------------------- CHARMM Parameter File Parameter Summary -------------------
+Atom Types             =            165  Angles                 =            667
+Bonds                  =            258  Cmaps                  =              6
+Dihedrals (Nonwild)    =            844  Dihedrals (Wild)       =             98
+Impropers (Nonwild)    =             45  Impropers (Wild)       =             25
+Nonbonds (Nonwild)     =            163  Nonbonds (Wild)        =              0
+Nonbonds 1-4 (Nonwild) =             26  Nonbonds 1-4 (Wild)    =              0
+Urey-Bradleys          =            159
+--------------------------------------------------------------------------------
+
+---------------------- CHARMM Parameter File Line Summary ----------------------
+Angle                  =              9  Bond                   =              3
+Dihedral               =              7  Improper               =              4
+--------------------------------------------------------------------------------
+
+-------------------- CHARMM Parameter File Parameter Summary -------------------
+Atom Types             =              7  Angles                 =              8
+Bonds                  =              2  Cmaps                  =              0
+Dihedrals (Nonwild)    =              6  Dihedrals (Wild)       =              0
+Impropers (Nonwild)    =              3  Impropers (Wild)       =              0
+Nonbonds (Nonwild)     =              0  Nonbonds (Wild)        =              0
+Nonbonds 1-4 (Nonwild) =              0  Nonbonds 1-4 (Wild)    =              0
+Urey-Bradleys          =              0
+--------------------------------------------------------------------------------
+
+---------------------- CHARMM Parameter File Line Summary ----------------------
+Angle                  =             12  Bond                   =              4
+Dihedral               =             28
+--------------------------------------------------------------------------------
+
+-------------------- CHARMM Parameter File Parameter Summary -------------------
+Atom Types             =             15  Angles                 =             11
+Bonds                  =              3  Cmaps                  =              0
+Dihedrals (Nonwild)    =             19  Dihedrals (Wild)       =              0
+Impropers (Nonwild)    =              0  Impropers (Wild)       =              0
+Nonbonds (Nonwild)     =              0  Nonbonds (Wild)        =              0
+Nonbonds 1-4 (Nonwild) =              0  Nonbonds 1-4 (Wild)    =              0
+Urey-Bradleys          =              3
+--------------------------------------------------------------------------------
+
+---------------------------- CHARMM PSF File Summary ---------------------------
+Acceptors              =          10066  Angles                 =          17318
+Atoms                  =          33620  Bonds                  =          33589
+Cheq Labels            =           9842  Cross Terms            =            242
+Dihedrals              =          10763  Donors                 =            421
+Exclusions             =              0  Groups                 =          11099
+Impropers              =            663  Lone Pair Hydrogens    =              0
+Lone Pairs             =              0  ST2s                   =              0
+Title                  =              2
+--------------------------------------------------------------------------------
+
+================================================================================
+Test for "Citrate Synthase":
+================================================================================
+
+--------------------------------------------------------------------------------
+                Summary for SystemWithTimings "Citrate Synthase"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =          33620  Number of Heavy Atoms  =          11954
+Number of Hydrogens    =          21666  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =          33620
+--------------------------------------------------------------------------------
+
+------------------------------- Electronic State -------------------------------
+Charge                 =              1  Multiplicity           =              1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                   Summary for Energy Model "CHARMM/AM1/ABFS"
+--------------------------------------------------------------------------------
+
+----------------------------------- Summary for MM Model "CHARMM" ----------------------------------
+LJ 1-4 Scaling                   =          1.000  El. 1-4 Scaling                  =          1.000
+Number of MM Atoms               =          33620  Number of MM Atom Types          =             62
+Number of Inactive MM Atoms      =            123  Total MM Charge                  =          -1.00
+Harmonic Bond Terms              =          33589  Harmonic Bond Parameters         =            107
+Harmonic Bond Inactive           =            116  Harmonic Angle Terms             =          17318
+Harmonic Angle Parameters        =            235  Harmonic Angle Inactive          =            182
+Urey-Bradley Terms               =           3528  Urey-Bradley Parameters          =             71
+Urey-Bradley Inactive            =             74  Fourier Dihedral Terms           =          11278
+Fourier Dihedral Parameters      =            361  Fourier Dihedral Inactive        =            198
+Harmonic Improper Terms          =            663  Harmonic Improper Parameters     =             21
+Harmonic Improper Inactive       =             24  CMAP Dihedral Terms              =            242
+CMAP Dihedral Parameters         =              5  Exclusions                       =          51697
+1-4 Interactions                 =          10549  LJ Parameters Form               =          AMBER
+LJ Parameters Types              =             62  1-4 LJ Parameters Form           =          AMBER
+1-4 LJ Parameters Types          =             62
+----------------------------------------------------------------------------------------------------
+
+-------------------------- Summary for QC Model "AM1" --------------------------
+Number of QC Atoms     =            132  Boundary Atoms         =              9
+Nuclear Charge         =            355  Orbital Functions      =            312
+Fitting Functions      =              0  Energy Base Line       =      455.88754
+QC Parameter Centers   =              5
+--------------------------------------------------------------------------------
+
+----------------------------- ABFS NB Model Summary ----------------------------
+Dielectric             =       1.000000  El. 1-4 Scaling        =       1.000000
+Damping Cutoff         =       0.500000  Inner Cutoff           =       8.000000
+List Cutoff            =      13.500000  Outer Cutoff           =      12.000000
+QC/MM Coupling         =    RC Coupling
+--------------------------------------------------------------------------------
+
+-------------------------- Pairlist Generator Summary --------------------------
+Cell Size              =          6.750  Cutoff                 =         13.500
+Cutoff Cell Size Factor =          0.500  Grid Cell/Cell Method  =           True
+Minimum Cell Extent    =              2  Minimum Cell Size      =          3.000
+Minimum Extent Factor  =          1.500  Minimum Points         =            500
+Sort Indices           =          False
+--------------------------------------------------------------------------------
+
+------------------------------- Sequence Summary -------------------------------
+Number of Atoms            =      33620  Number of Components       =      10086
+Number of Entities         =          8  Number of Linear Polymers  =          0
+Number of Links            =          0  Number of Variants         =          0
+--------------------------------------------------------------------------------
+
+------------------------------- Symmetry Summary -------------------------------
+Crystal Class          =          Cubic
+--------------------------------------------------------------------------------
+
+----------------------- Transformation3 Container Summary ----------------------
+Transformations        =              1  Identity               =              0
+Inverse Pairs          =              0  Self Inverses          =              1
+Absent Inverses        =              0
+--------------------------------------------------------------------------------
+
+-------------------------- ABFS NB Model State Summary -------------------------
+MM/MM Pairs            =       13822916  QC/MM LJ Pairs         =         123704
+QC/MM Elect. Pairs     =         134979  MM/MM 1-4 Pairs        =          10265
+QC/MM LJ 1-4 Pairs     =            131  MM/MM Image Images     =             13
+MM/MM Image Pairs      =        3567675
+--------------------------------------------------------------------------------
+
+------------------------ DIIS/ODA SCF Converger Summary ------------------------
+Maximum Cycles         =            100  DIIS Matrices          =             10
+Density Tolerance      =          1e-08  Energy Tolerance       =         0.0002
+DIIS Onset             =            0.2
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+   Cycle         Energy           Energy Change    RMS Density Change    Max. DIIS Error        Operation
+--------------------------------------------------------------------------------------------------------------
+         0      -5450.42616278          0.00000000          0.00000000          0.00000000
+         0      -5241.59712591      -5450.42616278          0.05609855          0.00000000
+         1      -4644.58698020        208.82903688          0.09745494          1.10537319     ODA           1
+         2      -5204.86992433        597.01014571          0.06163334          1.75668830     ODA      0.3513
+         3      -5443.59095089        284.24668402          0.04773812          1.09144542     ODA      0.1552
+         4      -5233.19381992         55.45075566          0.05163803          1.06342329     ODA      0.2618
+         5      -5520.50036747        273.83028667          0.03781421          1.42577788     ODA      0.1146
+         6      -4998.62214984         -8.80487793          0.05842135          0.42055089     ODA      0.6226
+         7      -5453.65092951        527.05086430          0.03545704          1.65516771     ODA      0.1081
+         8      -5474.92259291         79.91539714          0.02748096          0.43300351     ODA      0.1744
+         9      -5454.17692765         62.37728745          0.03216391          0.69318819     ODA      0.1649
+        10      -5530.63841418         85.63714957          0.02088755          0.84430771     ODA      0.1204
+        11      -5372.01196030         10.80866917          0.03647054          0.44049697     ODA      0.3406
+        12      -5564.82392605        173.36708438          0.02074197          0.69667780     ODA     0.09379
+        13      -5565.04120535        -17.56890309          0.00370302          0.09652691    DIIS          10
+        14      -5565.06129563         -0.21727930          0.00082104          0.02216662    DIIS          10
+        15      -5565.06381923         -0.02009028          0.00027469          0.00728707    DIIS          10
+        16      -5565.06434389         -0.00252360          0.00014724          0.00397080    DIIS          10
+        17      -5565.06468455         -0.00052466          0.00008630          0.00353095    DIIS          10
+        18      -5565.06484615         -0.00034065          0.00003356          0.00226108    DIIS          10
+        19      -5565.06485774         -0.00016160          0.00001008          0.00049689    DIIS          10
+        20      -5565.06485844         -0.00001159          0.00000303          0.00011504    DIIS          10
+        21      -5565.06485851         -0.00000070          0.00000102          0.00002898    DIIS          10
+        22      -5565.06485852         -0.00000006          0.00000039          0.00001117    DIIS          10
+        23      -5565.06485852         -0.00000001          0.00000016          0.00000542    DIIS          10
+        24      -5565.06485852         -0.00000000          0.00000005          0.00000232    DIIS          10
+        25      -5565.06485852         -0.00000000          0.00000002          0.00000078    DIIS          10
+        26      -5565.06485852          0.00000000          0.00000001          0.00000028    DIIS          10
+--------------------------------------------------------------------------------------------------------------
+
+-------------------------- MNDO QC Model State Summary -------------------------
+Electronic Energy      =     -5565.0649  Nuclear Energy         =      5108.7682
+One-Electron Energy    =     -10846.756  Two-Electron Energy    =      5281.9751
+QC/MM Elect.           =    -0.28406083  QC/QC Elect.           =              0
+SCF Convergence        =           True  SCF Cycles             =             26
+--------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =     -412044.5780  RMS Gradient              =          58.7504
+Harmonic Bond             =        3275.5174  Harmonic Angle            =        8208.7888
+Urey-Bradley              =         957.4596  Fourier Dihedral          =        5515.1863
+Harmonic Improper         =         516.9403  CMAP Dihedral             =       -1350.8124
+MM/MM Elect.              =     -465384.7859  MM/MM LJ                  =       35506.9011
+MM/MM 1-4 Elect.          =       33552.9686  MM/MM 1-4 LJ              =        3087.9785
+QC/MM LJ                  =        -355.3136  QC/MM 1-4 LJ              =          18.8527
+MM/MM Image Elect.        =      -35030.8150  MM/MM Image LJ            =         510.7774
+Pure QC                   =        -328.4200  QC/MM Elect.              =        -745.8017
+QC/QC Elect.              =           0.0000
+------------------------------------------------------------------------------------------
+
+---------------------------- Langevin Velocity Verlet Integrator Options ---------------------------
+Collision Frequency              =             25  Log Frequency                    =            100
+Maximum Iterations               =           1000  Temperature                      =            300
+Time Step                        =          0.001
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+                             Langevin Velocity Verlet Integrator Results
+----------------------------------------------------------------------------------------------------
+        Time            Total Energy       Kinetic Energy     Potential Energy       Temperature
+----------------------------------------------------------------------------------------------------
+          0.00000000    -286258.66217780     125785.91579468    -412044.57797248        300.00000000
+          0.10000000    -265743.43389400     125803.23388152    -391546.66777552        300.04130372
+          0.20000000    -268641.20381888     125720.45250016    -394361.65631905        299.84386974
+          0.30000000    -271989.31578171     125234.31479390    -397223.63057561        298.68442902
+          0.40000000    -271913.13489669     125686.96352911    -397600.09842580        299.76399838
+          0.50000000    -273237.07292694     125049.52944928    -398286.60237623        298.24371511
+          0.60000000    -272586.17403229     125430.98059680    -398017.15462909        299.15347789
+          0.70000000    -274472.73286537     124379.15480888    -398851.88767426        296.64486844
+          0.80000000    -274759.20695780     124437.71960913    -399196.92656693        296.78454576
+          0.90000000    -275228.41863993     124532.17470168    -399760.59334162        297.00982160
+          1.00000000    -276895.82126839     123719.79388505    -400615.61515344        295.07228954
+Averages                -271364.36608715     125613.46390374    -396977.82999088        299.58870143
+RMS Deviations             5475.51550108       2648.13611835       3854.58975719          6.31581708
+----------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------
+                       Timings Summary
+------------------------------------------------------------
+           Item                  Time           Percentage
+------------------------------------------------------------
+Total                             25m 39.488s        100.000
+Energy                            25m 20.906s         98.793
+QC Evaluation                     18m 46.992s         73.206
+QC Converger Densities            11m 25.963s         44.558
+NB Evaluation                      4m 38.986s         18.122
+QC Gradients                       2m 52.726s         11.220
+QC Converger Iterate               1m 53.556s          7.376
+NB Set Up                          1m 41.158s          6.571
+QC Initialize                      1m 16.216s          4.951
+QC Fock                            1m 15.062s          4.876
+QC/MM Gradients                        4.053s          0.263
+Harmonic Angle                         3.319s          0.216
+QC/MM Potentials                       2.570s          0.167
+QC Converger Initialize                2.016s          0.131
+Fourier Dihedral                       1.763s          0.115
+QC Converger Finalize                  1.198s          0.078
+Harmonic Bond                          1.196s          0.078
+Initialization                         0.387s          0.025
+CMAP Dihedral                          0.155s          0.010
+Harmonic Improper                      0.127s          0.008
+Urey-Bradley                           0.124s          0.008
+QC Finalization                        0.073s          0.005
+Finalization                           0.012s          0.001
+QC Postprocessing                      0.005s          0.000
+QC Set Up                              0.001s          0.000
+------------------------------------------------------------
+
+Number of Energy Calls = 1002
+
+-------------------- ABFS NB Model State Statistics Summary --------------------
+Number of Calls        =           1002  Number of Updates      =             77
+<MM/MM Pairs>          =     13798855.9  MM/MM 1-4 Pairs        =          10265
+<QC/MM Elect. Pairs>   =       134812.0  <QC/MM LJ Pairs>       =       123548.5
+QC/MM LJ 1-4 Pairs     =            131  <MM/MM Image Images>   =           13.0
+<MM/MM Image Pairs>    =      3589820.6  Calls per Update       =           13.0
+Grid Updating          =           True
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+                                      Text File Reader Warnings
+----------------------------------------------------------------------------------------------------
+   Line                                        Message                                     Severity
+----------------------------------------------------------------------------------------------------
+2198                                   Unable to process non-epsilon/sigma nonbond for FE.   Warning
+----------------------------------------------------------------------------------------------------
+
+There have been warnings. Proceed with caution!
+
+
+---------------------- CHARMM Parameter File Line Summary ----------------------
+Angle                  =            342  Bond                   =            139
+Dihedral               =            444  HBond                  =              1
+Improper               =             47  NonBond                =             61
+Title                  =              5
+--------------------------------------------------------------------------------
+
+-------------------- CHARMM Parameter File Parameter Summary -------------------
+Atom Types             =             61  Angles                 =            341
+Bonds                  =            138  Cmaps                  =              0
+Dihedrals (Nonwild)    =            333  Dihedrals (Wild)       =             49
+Impropers (Nonwild)    =             34  Impropers (Wild)       =             12
+Nonbonds (Nonwild)     =             59  Nonbonds (Wild)        =              0
+Nonbonds 1-4 (Nonwild) =             12  Nonbonds 1-4 (Wild)    =              0
+Urey-Bradleys          =            102
+--------------------------------------------------------------------------------
+
+---------------------------- CHARMM PSF File Summary ---------------------------
+Acceptors              =           7268  Angles                 =          11584
+Atoms                  =          23558  Bonds                  =          23592
+Dihedrals              =           6701  Donors                 =            263
+Exclusions             =              0  Groups                 =           7762
+Impropers              =            418  Lone Pair Hydrogens    =              0
+Lone Pairs             =              0  ST2s                   =              0
+Title                  =              4
+--------------------------------------------------------------------------------
+
+================================================================================
+Test for "DHFR":
+================================================================================
+
+--------------------------------------------------------------------------------
+                      Summary for SystemWithTimings "DHFR"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =          23558  Number of Heavy Atoms  =           8291
+Number of Hydrogens    =          15267  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =          23558
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                     Summary for Energy Model "CHARMM/ABFS"
+--------------------------------------------------------------------------------
+
+----------------------------------- Summary for MM Model "CHARMM" ----------------------------------
+LJ 1-4 Scaling                   =          1.000  El. 1-4 Scaling                  =          1.000
+Number of MM Atoms               =          23558  Number of MM Atom Types          =             35
+Total MM Charge                  =         -11.00  Harmonic Bond Terms              =          23592
+Harmonic Bond Parameters         =             68  Harmonic Angle Terms             =          11584
+Harmonic Angle Parameters        =            150  Urey-Bradley Terms               =           2117
+Urey-Bradley Parameters          =             48  Fourier Dihedral Terms           =           7000
+Fourier Dihedral Parameters      =            187  Harmonic Improper Terms          =            418
+Harmonic Improper Parameters     =             14  Exclusions                       =          34709
+1-4 Interactions                 =           6556  LJ Parameters Form               =          AMBER
+LJ Parameters Types              =             35  1-4 LJ Parameters Form           =          AMBER
+1-4 LJ Parameters Types          =             35
+----------------------------------------------------------------------------------------------------
+
+----------------------------- ABFS NB Model Summary ----------------------------
+Dielectric             =       1.000000  El. 1-4 Scaling        =       1.000000
+Damping Cutoff         =       0.500000  Inner Cutoff           =       8.000000
+List Cutoff            =      13.500000  Outer Cutoff           =      12.000000
+QC/MM Coupling         =    RC Coupling
+--------------------------------------------------------------------------------
+
+-------------------------- Pairlist Generator Summary --------------------------
+Cell Size              =          6.750  Cutoff                 =         13.500
+Cutoff Cell Size Factor =          0.500  Grid Cell/Cell Method  =           True
+Minimum Cell Extent    =              2  Minimum Cell Size      =          3.000
+Minimum Extent Factor  =          1.500  Minimum Points         =            500
+Sort Indices           =          False
+--------------------------------------------------------------------------------
+
+------------------------------- Sequence Summary -------------------------------
+Number of Atoms            =      23558  Number of Components       =       7182
+Number of Entities         =          2  Number of Linear Polymers  =          0
+Number of Links            =          0  Number of Variants         =          0
+--------------------------------------------------------------------------------
+
+------------------------------- Symmetry Summary -------------------------------
+Crystal Class          =          Cubic
+--------------------------------------------------------------------------------
+
+----------------------- Transformation3 Container Summary ----------------------
+Transformations        =              1  Identity               =              0
+Inverse Pairs          =              0  Self Inverses          =              1
+Absent Inverses        =              0
+--------------------------------------------------------------------------------
+
+-------------------------- ABFS NB Model State Summary -------------------------
+MM/MM Pairs            =        8885288  MM/MM 1-4 Pairs        =           6556
+MM/MM Image Images     =             13  MM/MM Image Pairs      =        2942151
+--------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =     -375469.1160  RMS Gradient              =           1.4766
+Harmonic Bond             =       12444.3942  Harmonic Angle            =        9454.9073
+Urey-Bradley              =         130.3783  Fourier Dihedral          =        3015.4953
+Harmonic Improper         =          52.1977  MM/MM Elect.              =     -388870.0641
+MM/MM LJ                  =       26802.2738  MM/MM 1-4 Elect.          =       17884.0130
+MM/MM 1-4 LJ              =        1421.1985  MM/MM Image Elect.        =      -62084.6864
+MM/MM Image LJ            =        4280.7766
+------------------------------------------------------------------------------------------
+
+---------------------------- Langevin Velocity Verlet Integrator Options ---------------------------
+Collision Frequency              =             25  Log Frequency                    =            100
+Maximum Iterations               =           1000  Temperature                      =            300
+Time Step                        =          0.001
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+                             Langevin Velocity Verlet Integrator Results
+----------------------------------------------------------------------------------------------------
+        Time            Total Energy       Kinetic Energy     Potential Energy       Temperature
+----------------------------------------------------------------------------------------------------
+          0.00000000    -287330.30105167      88138.81490750    -375469.11595916        300.00000000
+          0.10000000    -212218.58983487      84515.64477943    -296734.23461430        287.66773709
+          0.20000000    -205597.97568643      86588.36772091    -292186.34340734        294.72270921
+          0.30000000    -203589.36871305      87545.90281416    -291135.27152720        297.98189222
+          0.40000000    -203073.25206105      87743.34120235    -290816.59326341        298.65391755
+          0.50000000    -203151.53983435      87517.23623417    -290668.77606852        297.88431916
+          0.60000000    -202966.65601445      87037.40322247    -290004.05923692        296.25110111
+          0.70000000    -203164.75882638      87391.45879258    -290556.21761896        297.45620775
+          0.80000000    -202986.96005718      87759.76178480    -290746.72184198        298.70980865
+          0.90000000    -204124.45686129      86707.62744220    -290832.08430349        295.12863612
+          1.00000000    -203053.72435098      87270.09969346    -290323.82404445        297.04313514
+Averages                -206432.92151160      86430.27051293    -292863.19202452        294.18459031
+RMS Deviations             8781.13299041       3205.56402545       6837.93259917         10.91084795
+----------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------
+                    Timings Summary
+-------------------------------------------------------
+        Item                Time           Percentage
+-------------------------------------------------------
+Total                         4m 28.508s        100.000
+Energy                        4m 14.987s         94.964
+NB Evaluation                 3m 11.984s         71.500
+NB Set Up                        58.147s         21.656
+Harmonic Angle                    2.345s          0.873
+Fourier Dihedral                  1.168s          0.435
+Harmonic Bond                     0.810s          0.302
+Initialization                    0.300s          0.112
+Harmonic Improper                 0.088s          0.033
+Urey-Bradley                      0.077s          0.029
+Finalization                      0.009s          0.003
+-------------------------------------------------------
+
+Number of Energy Calls = 1002
+
+-------------------- ABFS NB Model State Statistics Summary --------------------
+Number of Calls        =           1002  Number of Updates      =             76
+<MM/MM Pairs>          =      8884106.2  MM/MM 1-4 Pairs        =           6556
+<MM/MM Image Images>   =           13.0  <MM/MM Image Pairs>    =      2943797.4
+Calls per Update       =           13.2  Grid Updating          =           True
+--------------------------------------------------------------------------------
+
+--------------------------------------------------
+                   Test Results
+--------------------------------------------------
+        Test                     Time
+--------------------------------------------------
+Citrate Synthase                       25m 39.488s
+DHFR                                    4m 28.508s
+--------------------------------------------------

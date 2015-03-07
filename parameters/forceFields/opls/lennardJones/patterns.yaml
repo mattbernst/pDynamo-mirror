@@ -1,0 +1,13 @@
+---
+# . !MMPatternContainer
+Atom Fields:
+    - Atomic Number
+    - Connections
+    - Formal Charge
+    - Type
+Label: Lennard-Jones
+Patterns:
+    - Label: Lennard-Jones
+      Atom Patterns:
+          - [ 18, 0, 0, LJ ]
+...

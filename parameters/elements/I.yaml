@@ -1,0 +1,17 @@
+---
+# . !Element
+Atomic Number             : 53
+Bragg Radius              : 1.4
+Covalent Radius           : 1.4
+Mass                      : 126.9045
+Name                      : Iodine
+Pauling Electronegativity : 2.66
+RGB Color Indices         : [148, 0, 148]
+Single Bond Distances     : {1: 1.6, 53: 2.67, 6: 2.14}
+Symbol                    : I
+VdW Radius                : 2.15
+d Quantum Number          : 0
+f Quantum Number          : 0
+p Quantum Number          : 5
+s Quantum Number          : 5
+...

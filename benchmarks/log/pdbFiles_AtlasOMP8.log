@@ -1,0 +1,28 @@
+
+Running tutorials ...
+
+Please be patient ... this will take some time ...
+
+Outputs and other files are in /home/administrator/Work/scratch/tutorials.
+
+--------------------------------------------------------------------------------
+Tutorial: pdbFiles
+--------------------------------------------------------------------------------
+
+step1/PDBFileToModel                              Pass                    0.950s
+step3/PDBModelToSystem_0                          Error                   2.067s
+step3a/MakePDBComponentLibrary                    Pass                    0.774s
+step3/PDBModelToSystem_1                          Pass                   30.154s
+step4/GenerateMMModel_0                           Error                   1.833s
+step4/GenerateMMModel_1                           Pass                    3.856s
+step6/IdentifyUndefinedCoordinates3               Pass                    1.042s
+step6/HandBuild                                   Pass                    1.582s
+step7/RefineVacuumStructure                       Pass                   52.258s
+step8/GetSolvationInformation                     Pass                    1.102s
+step8/AddCounterIons                              Pass                    2.645s
+step8/MakeSolventBox                              Pass               41m 12.098s
+step8/SolvateSystem                               Pass               41m 26.307s
+step9/EquilibrateSolvatedStructure                Pass                39m 1.816s
+** Totals **                                      12/14           2h  3m 18.484s
+
+--------------------------------------------------------------------------------

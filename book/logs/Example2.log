@@ -1,0 +1,90 @@
+
+--------------------------------------------------------------------------------
+Summary for PDB File "/home/administrator/Work/pDynamo-1.9.0/book/data/pdb/bala_
+--------------------------------------------------------------------------------
+
+---------------------------- PDB File Record Summary ---------------------------
+Records                =             50  Warnings               =              0
+AUTHOR Records         =              1  COMPND Records         =              1
+CONECT Records         =             22  END    Records         =              1
+HEADER Records         =              1  HETATM Records         =             22
+MASTER Records         =              1  TITLE  Records         =              1
+--------------------------------------------------------------------------------
+
+----------------------------- PDB Sequence Summary -----------------------------
+Atoms                  =             22  Components             =              1
+Entities               =              1  Linear Polymers        =              0
+--------------------------------------------------------------------------------
+
+-------------------------- SMILES Connectivity Summary -------------------------
+Number of Atoms        =             22  Number of Bonds        =             21
+Number of Ring Sets    =              0  Number of Rings        =              0
+Charge                 =              0  Heavy Atoms            =             10
+Explicit Hydrogens     =              0  Implicit Hydrogens     =             12
+Unknown Atoms          =              0  Aromatic Atoms         =              0
+Ring Atoms             =              0
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+       Summary for System "bALA C7 equatorial configuration - MOL format."
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22  Bonds                  =             21
+Angles                 =             36  Dihedrals              =             41
+Isolates               =              1  Ring Sets              =              0
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+       Summary for System "Bala C7 Equatorial Configuration - Pdb Format."
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22  Bonds                  =              0
+Angles                 =              0  Dihedrals              =              0
+Isolates               =              0  Ring Sets              =              0
+--------------------------------------------------------------------------------
+
+------------------------------- Sequence Summary -------------------------------
+Number of Atoms            =         22  Number of Components       =          1
+Number of Entities         =          1  Number of Linear Polymers  =          0
+Number of Links            =          0  Number of Variants         =          0
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+   Summary for System "bALA C7 equatorial configuration (OPLS-AA force field)"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                     Summary for System "CC(=O)NC(C)C(=O)NC"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22  Bonds                  =             21
+Angles                 =             36  Dihedrals              =             41
+Isolates               =              1  Ring Sets              =              0
+--------------------------------------------------------------------------------

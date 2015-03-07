@@ -1,0 +1,89 @@
+
+--------------------------------------------------------------------------------
+       Summary for System "bALA C7 equatorial configuration - MOL format."
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22  Bonds                  =             21
+Angles                 =             36  Dihedrals              =             41
+Isolates               =              1  Ring Sets              =              0
+--------------------------------------------------------------------------------
+
+------------------------------- Electronic State -------------------------------
+Charge                 =              0  Multiplicity           =              1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                    Summary for Energy Model "OPLS/AM1/Full"
+--------------------------------------------------------------------------------
+
+------------------------------------ Summary for MM Model "OPLS" -----------------------------------
+LJ 1-4 Scaling                   =          0.500  El. 1-4 Scaling                  =          0.500
+Number of MM Atoms               =             22  Number of MM Atom Types          =              6
+Number of Inactive MM Atoms      =              4  Total MM Charge                  =           0.00
+Fourier Dihedral Terms           =             29  Fourier Dihedral Parameters      =             18
+Harmonic Angle Terms             =             36  Harmonic Angle Parameters        =             13
+Harmonic Angle Inactive          =              6  Harmonic Bond Terms              =             21
+Harmonic Bond Parameters         =              7  Harmonic Bond Inactive           =              3
+Fourier Out-Of-Plane Terms       =             12  Fourier Out-Of-Plane Parameters  =              2
+Exclusions                       =             98  1-4 Interactions                 =             41
+Lennard-Jones Form               =           OPLS  Lennard-Jones Types              =              6
+1-4 Lennard-Jones Form           =           OPLS  1-4 Lennard-Jones Types          =              6
+----------------------------------------------------------------------------------------------------
+
+-------------------------- Summary for QC Model "AM1" --------------------------
+Number of QC Atoms     =              5  Boundary Atoms         =              1
+Nuclear Charge         =              8  Orbital Functions      =              8
+Fitting Functions      =              0  Energy Base Line       =        6.71959
+QC Parameter Centers   =              2
+--------------------------------------------------------------------------------
+
+----------------------------- Full NB Model Summary ----------------------------
+Dielectric                =    1.000000  El. 1-4 Scaling           =    0.500000
+QC/MM Coupling            = RC Coupling
+--------------------------------------------------------------------------------
+
+Full NB Model State set up.
+
+------------------------ DIIS/ODA SCF Converger Summary ------------------------
+Maximum Cycles         =            100  DIIS Matrices          =             10
+Density Tolerance      =          1e-08  Energy Tolerance       =         0.0002
+DIIS Onset             =            0.2
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+   Cycle         Energy           Energy Change    RMS Density Change    Max. DIIS Error        Operation
+--------------------------------------------------------------------------------------------------------------
+         0        -11.73818784          0.00000000          0.00000000          0.00000000
+         0        -14.20012002        -11.73818784          0.35355339          0.00000000
+         1        -14.20136875         -2.46193219          0.00748479          0.02356602     ODA           1
+         2        -14.20145602         -0.00124873          0.00208837          0.00569665     ODA           1
+         3        -14.20146698         -0.00008728          0.00005870          0.00161141    DIIS           3
+         4        -14.20146699         -0.00001096          0.00001689          0.00003533    DIIS           4
+         5        -14.20146699         -0.00000001          0.00000166          0.00000281    DIIS           5
+         6        -14.20146699         -0.00000000          0.00000038          0.00000051    DIIS           6
+         7        -14.20146699         -0.00000000          0.00000000          0.00000014    DIIS           7
+--------------------------------------------------------------------------------------------------------------
+
+-------------------------- MNDO QC Model State Summary -------------------------
+Electronic Energy      =     -14.201467  Nuclear Energy         =      7.4686501
+One-Electron Energy    =     -23.274964  Two-Electron Energy    =      9.0768217
+QC/MM Elect.           =  -0.0033247881  QC/QC Elect.           =              0
+SCF Convergence        =           True  SCF Cycles             =              7
+--------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -198.7426  RMS Gradient              =             None
+Fourier Dihedral          =          14.9277  Harmonic Angle            =           3.1571
+Harmonic Bond             =           0.9559  Fourier Out-Of-Plane      =           0.2528
+MM/MM Elect.              =        -289.9500  MM/MM 1-4 Elect.          =          93.8358
+MM/MM LJ                  =          -0.6042  MM/MM 1-4 LJ              =          11.6421
+QC/MM LJ                  =          -2.1284  QC/MM 1-4 LJ              =           3.8869
+Pure QC                   =         -25.9890  QC/MM Elect.              =          -8.7292
+QC/QC Elect.              =           0.0000
+------------------------------------------------------------------------------------------

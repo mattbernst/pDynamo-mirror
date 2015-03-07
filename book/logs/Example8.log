@@ -1,0 +1,87 @@
+
+--------------------------------------------------------------------------------
+      Summary for System "Water dimer Cs symmetry structure - MOL format."
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =              6  Number of Heavy Atoms  =              2
+Number of Hydrogens    =              4  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =              6  Bonds                  =              4
+Angles                 =              2  Dihedrals              =              0
+Isolates               =              2  Ring Sets              =              0
+--------------------------------------------------------------------------------
+
+------------------------------- Electronic State -------------------------------
+Charge                 =              0  Multiplicity           =              1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                    Summary for Energy Model "OPLS/AM1/Full"
+--------------------------------------------------------------------------------
+
+------------------------------------ Summary for MM Model "OPLS" -----------------------------------
+LJ 1-4 Scaling                   =          0.500  El. 1-4 Scaling                  =          0.500
+Number of MM Atoms               =              6  Number of MM Atom Types          =              2
+Number of Inactive MM Atoms      =              3  Total MM Charge                  =           0.00
+Harmonic Angle Terms             =              2  Harmonic Angle Parameters        =              1
+Harmonic Angle Inactive          =              1  Harmonic Bond Terms              =              4
+Harmonic Bond Parameters         =              1  Harmonic Bond Inactive           =              2
+Urey-Bradley Terms               =              2  Urey-Bradley Parameters          =              1
+Urey-Bradley Inactive            =              1  Exclusions                       =              6
+1-4 Interactions                 =              0  Lennard-Jones Form               =           OPLS
+Lennard-Jones Types              =              2  1-4 Lennard-Jones Form           =           OPLS
+1-4 Lennard-Jones Types          =              2
+----------------------------------------------------------------------------------------------------
+
+-------------------------- Summary for QC Model "AM1" --------------------------
+Number of QC Atoms     =              3  Boundary Atoms         =              0
+Nuclear Charge         =              8  Orbital Functions      =              6
+Fitting Functions      =              0  Energy Base Line       =       12.71504
+QC Parameter Centers   =              2
+--------------------------------------------------------------------------------
+
+----------------------------- Full NB Model Summary ----------------------------
+Dielectric                =    1.000000  El. 1-4 Scaling           =    0.500000
+QC/MM Coupling            = RC Coupling
+--------------------------------------------------------------------------------
+
+Full NB Model State set up.
+
+------------------------ DIIS/ODA SCF Converger Summary ------------------------
+Maximum Cycles         =            100  DIIS Matrices          =             10
+Density Tolerance      =          1e-08  Energy Tolerance       =         0.0002
+DIIS Onset             =            0.2
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+   Cycle         Energy           Energy Change    RMS Density Change    Max. DIIS Error        Operation
+--------------------------------------------------------------------------------------------------------------
+         0        -16.03954266          0.00000000          0.00000000          0.00000000
+         0        -18.10383182        -16.03954266          0.38490018          0.00000000
+         1        -18.11923704         -2.06428915          0.03874203          0.09822587     ODA           1
+         2        -18.12091365         -0.01540523          0.01282832          0.03298771     ODA           1
+         3        -18.12111493         -0.00167661          0.00093307          0.01084872    DIIS           3
+         4        -18.12111498         -0.00020128          0.00026932          0.00016825    DIIS           4
+         5        -18.12111498         -0.00000005          0.00000300          0.00004541    DIIS           5
+         6        -18.12111498         -0.00000000          0.00000059          0.00000246    DIIS           6
+         7        -18.12111498         -0.00000000          0.00000009          0.00000019    DIIS           7
+         8        -18.12111498         -0.00000000          0.00000000          0.00000001    DIIS           6
+--------------------------------------------------------------------------------------------------------------
+
+-------------------------- MNDO QC Model State Summary -------------------------
+Electronic Energy      =     -18.121115  Nuclear Energy         =      5.3040515
+One-Electron Energy    =     -30.238548  Two-Electron Energy    =      12.126477
+QC/MM Elect.           =  -0.0090439336  QC/QC Elect.           =              0
+SCF Convergence        =           True  SCF Cycles             =              8
+--------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -259.7951  RMS Gradient              =             None
+Harmonic Angle            =           0.0081  Harmonic Bond             =           0.0368
+Urey-Bradley              =           0.0000  QC/MM LJ                  =           8.0239
+Pure QC                   =        -244.1191  QC/MM Elect.              =         -23.7448
+QC/QC Elect.              =           0.0000
+------------------------------------------------------------------------------------------

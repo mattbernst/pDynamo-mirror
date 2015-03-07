@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# . Bash environment variables and paths to be added to a user's ".bash_profile" file.
+# . Some of these values may need modifying (e.g. PDYNAMO_SCRATCH and PYTHONPATH).
+
+# . The root of the program.
+PDYNAMO_ROOT={pDynamoRoot} ; export PDYNAMO_ROOT
+
+# . Package paths.
+PDYNAMO_PBABEL=$PDYNAMO_ROOT/{pBabel}                     ; export PDYNAMO_PBABEL           
+PDYNAMO_PCORE=$PDYNAMO_ROOT/{pCore}                       ; export PDYNAMO_PCORE            
+PDYNAMO_PMOLECULE=$PDYNAMO_ROOT/{pMolecule}               ; export PDYNAMO_PMOLECULE       
+PDYNAMO_PMOLECULESCRIPTS=$PDYNAMO_ROOT/{pMoleculeScripts} ; export PDYNAMO_PMOLECULESCRIPTS 
+
+# . Additional paths.
+PDYNAMO_PARAMETERS={parameters}                                   ; export PDYNAMO_PARAMETERS
+PDYNAMO_SCRATCH={scratch}                                         ; export PDYNAMO_SCRATCH   
+PDYNAMO_STYLE=$PDYNAMO_PARAMETERS/ccsStyleSheets/defaultStyle.css ; export PDYNAMO_STYLE     
+
+# . The python path.
+PYTHONPATH={pythonPath} ; export PYTHONPATH

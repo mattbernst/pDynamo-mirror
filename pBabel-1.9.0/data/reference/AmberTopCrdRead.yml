@@ -1,0 +1,205 @@
+&id002 !!python/object:pCore.Testing.TestDataSet
+children:
+  dna: &id001 !!python/object:pCore.Testing.TestDataSet
+    children: {}
+    data:
+      Fourier Dihedral: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Fourier Dihedral
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 15756.526419904683
+        valueFormat: '{:.3f}'
+      Fourier Improper: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Fourier Improper
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 1.7930430256234291
+        valueFormat: '{:.3f}'
+      Harmonic Angle: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Harmonic Angle
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 30898.111177868861
+        valueFormat: '{:.3f}'
+      Harmonic Bond: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Harmonic Bond
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 49910.063334505379
+        valueFormat: '{:.3f}'
+      MM/MM 1-4 Elect.: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM 1-4 Elect.
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: -102141.97044163219
+        valueFormat: '{:.3f}'
+      MM/MM 1-4 LJ: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM 1-4 LJ
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 8247.0816752299343
+        valueFormat: '{:.3f}'
+      MM/MM Elect.: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM Elect.
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 546979.0897631027
+        valueFormat: '{:.3f}'
+      MM/MM LJ: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM LJ
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: -6646.5642516404514
+        valueFormat: '{:.3f}'
+      Potential Energy: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Potential Energy
+        parent: *id001
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 543004.13072036451
+        valueFormat: '{:.3f}'
+    label: dna
+    parent: *id002
+  glucose: &id003 !!python/object:pCore.Testing.TestDataSet
+    children: {}
+    data:
+      Fourier Dihedral: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Fourier Dihedral
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 9.6271250060636596e-06
+        valueFormat: '{:.3f}'
+      Fourier Improper: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Fourier Improper
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 5.4337640320822086e-05
+        valueFormat: '{:.3f}'
+      Gradient Error: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.001
+        label: Gradient Error
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.4e}'
+        units: null
+        usePercentError: false
+        value: 1.755666150415891e-05
+        valueFormat: '{:.4e}'
+      Harmonic Angle: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Harmonic Angle
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 4.1107837562911254
+        valueFormat: '{:.3f}'
+      Harmonic Bond: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Harmonic Bond
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 10.701791863102454
+        valueFormat: '{:.3f}'
+      MM/MM 1-4 Elect.: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM 1-4 Elect.
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 657.05798765675786
+        valueFormat: '{:.3f}'
+      MM/MM 1-4 LJ: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM 1-4 LJ
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 27.366586586642622
+        valueFormat: '{:.3f}'
+      MM/MM Elect.: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM Elect.
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: -361.09756616820886
+        valueFormat: '{:.3f}'
+      MM/MM LJ: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: MM/MM LJ
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 30.379471070666987
+        valueFormat: '{:.3f}'
+      Potential Energy: !!python/object:pCore.Testing.TestReal
+        absoluteErrorTolerance: 0.5
+        label: Potential Energy
+        parent: *id003
+        percentErrorTolerance: null
+        toleranceFormat: '{:.3f}'
+        units: null
+        usePercentError: false
+        value: 368.51911873001745
+        valueFormat: '{:.3f}'
+    label: glucose
+    parent: *id002
+data: {}
+label: AMBER Test
+parent: null

@@ -1,0 +1,206 @@
+/*----------------------------------------------------------------------------*/
+/* . Main page sections. */
+/*----------------------------------------------------------------------------*/
+html, body
+{
+    background-color : #FFFFFF ;
+    font-family      : Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif ;
+    font-size        : 100% ;
+    height           : 100% ;
+    margin           : 0 ;
+    padding          : 0 ;
+    width            : 100% ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Anchors. */
+/*----------------------------------------------------------------------------*/
+a:link
+{
+    text-decoration : none ;
+}
+
+a:visited
+{
+    text-decoration : none ;
+}
+
+a:hover
+{
+    text-decoration : none ;
+}
+
+a:active
+{
+    text-decoration : none ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Divs. */
+/*----------------------------------------------------------------------------*/
+div.description
+{
+    line-height : 1.4em ;
+    margin      : 1.0em ;
+    padding     : 0.5em ;
+    text-align  : justify ;
+}
+
+div.footer
+{
+    background-color : #33CC33 ;
+    font-size        : 75% ;
+    height           : 3em ;
+    margin           : 1px ;
+    padding          : 1px ;
+}
+
+div.header
+{
+    background-color : #33CC33 ;
+    height           : 5.5em ;
+    margin           : 1px ;
+    padding          : 1px ;
+}
+
+div.headertitle
+{
+    float : left ;
+}
+
+div.navigation
+{
+    border-top : 1px solid #EE6000 ;
+    margin-top : 0.5em ;
+}
+
+div.orangeline
+{
+    background-color : #EE6000 ;
+    height           : 0.25em  ;
+    margin-bottom    : 0.05em  ;
+    margin-top       : 0.05em  ;
+    width            : 100%    ;
+}
+
+div.searching
+{
+    background-color : #FFFFFF ;
+    float            : right ;
+    height           : 2em ;
+    margin           : 2px ;
+    padding          : 0 ;
+}
+
+div.validation
+{
+    float : right ;
+    top   : 4px ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Headers. */
+/*----------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5
+{
+    font-family : Georgia, "Bitstream Vera Serif", "New York", Palatino, serif ;
+    font-weight : normal ;
+}
+
+h1
+{
+    color           : #234764 ;
+    font-size       : 160% ;
+    margin          : 0.7em 0 0.7em 0 ;
+    text-decoration : none ;
+}
+
+h1.header
+{
+    font-size : 200% ;
+    margin    : 0.7em 0.5em 0.7em 0.5em ;
+}
+
+h1.title
+{
+    margin    : 0.7em ;
+    text-align : center ;
+}
+
+h2
+{
+    color      : #234764 ;
+    font-size  : 135% ;
+    margin     : 0.7em ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Inputs. */
+/*----------------------------------------------------------------------------*/
+input.submit
+{
+    background-color : #33CC33 ;
+    border           : 1px solid #33CC33 ;
+    color            : #FFFFFF ;
+    margin           : 0.4em 0.4em 0.4em 0.04em ;
+    vertical-align   : middle ;
+}
+
+input.text
+{
+    background-color : #FFFFFF ;
+    border           : 1px solid #33CC33 ;
+    margin           : 0.4em 0.04em 0.4em 0.4em ;
+    vertical-align   : middle ;
+    width            : 12em ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Paragraphs. */
+/*----------------------------------------------------------------------------*/
+p
+{
+    margin-left : 1em ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Tables. */
+/*----------------------------------------------------------------------------*/
+table.itemlist
+{
+    border      : 0 ;
+    font-family : Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif ;
+    line-height : 1.4em ;
+    margin      : 0.5em 0.0em 1.5em 1.0em ;
+}
+
+table.navigation
+{
+    border      : 0 ;
+    font-family : Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif ;
+    margin      : auto ;
+    margin-top  : 0.5em ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Table entries. */
+/*----------------------------------------------------------------------------*/
+td
+{
+    font-weight : normal ;
+    padding     : 0 0.1em 0 0.1em ;
+}
+
+td.itemlist
+{
+    padding : 0 0.5em 0 2.0em ;
+}
+
+/*----------------------------------------------------------------------------*/
+/* . Table headings. */
+/*----------------------------------------------------------------------------*/
+th
+{
+    font-weight : 700 ;
+    padding     : 0 0.1em 0 0.1em ;
+}

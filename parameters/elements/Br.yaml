@@ -1,0 +1,17 @@
+---
+# . !Element
+Atomic Number             : 35
+Bragg Radius              : 1.15
+Covalent Radius           : 1.21
+Mass                      : 79.904
+Name                      : Bromine
+Pauling Electronegativity : 2.96
+RGB Color Indices         : [166, 41, 41]
+Single Bond Distances     : {1: 1.41, 35: 2.28, 6: 1.94}
+Symbol                    : Br
+VdW Radius                : 2.1
+d Quantum Number          : 0
+f Quantum Number          : 0
+p Quantum Number          : 4
+s Quantum Number          : 4
+...

@@ -1,0 +1,127 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml:lang = "en" lang = "en">
+<head>
+    <title>pDynamo Python Method IsPossibleAromatic</title>
+    <link href = "documentationPages.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+
+<!-- =========================================================================================================================== -->
+<!-- Header. -->
+<!-- =========================================================================================================================== -->
+<div class = "header">
+
+    <!-- Title -->
+    <div class = "headertitle">
+        <h1 class = "header">pDynamo Library Reference</h1>
+    </div>
+
+    <!-- Searching -->
+    <div class = "searching">
+        <form action = "http://google.com/search" method = "get">
+            <div>
+                <input                  name = "domains"    type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sitesearch" type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sourceid"   type = "hidden" value = "google-search"   />
+                <input class = "text"   name = "q"          type = "text"                             />
+                <input class = "submit" name = "submit"     type = "submit" value = "Search Site"     />
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<h1 class = "title"><a id = "top">Python Method IsPossibleAromatic</a></h1>
+
+<p>Owner: <a href = "class277.html">Class SMILESAtom</a></p>
+
+<div class = "description">
+    <p>
+    Check to see if the atom is a possible aromatic.
+    </p>
+    <p>
+    This procedure does (and should) not require the presence of
+    implicit hydrogens to work.
+    </p>
+    <p>
+    All aromatic atoms obey the following rules:
+    </p>
+    <p>
+    1. It must be one of the possible aromatic elements. 2. It cannot
+    have a connectivity of more than 3 (including implicit
+    hydrogens - although these are not important for determining
+    aromaticity). 3. Carbons must be sp or sp2 hybridized (i.e. have
+    attached multiple    bonds or be only 3-connected) but there are
+    no such limitations on    other atoms. 4. It must be in a ring and
+    bound to at least two other possible    aromatic elements that are
+    also in rings.
+    </p>
+    <p>
+    Element-specific rules:
+    </p>
+    <p>
+    C: The third connection can be a single bond to any other atom
+    (I),    although double bonds to non-carbon, non-ring atoms are
+    allowed    too (as long as the total valence is 4) (II).
+    </p>
+    <p>
+    N, P, As: These atoms can be 3-coordinate and 3-valence (I) or
+    2-coordinate or 3-coordinate and 4-valence in which case
+    the double bond must be to an extra-cyclic oxygen (II).
+    </p>
+    <p>
+    O: Oxygen can only ever have two connections (I).
+    </p>
+    <p>
+    S, Se: These atoms can be 2-coordinate or 3-coordinate and
+    4-valence with the third connection a double bond to an
+    extra-cyclic oxygen (I).
+    </p>
+    <p>
+    Donated electrons and extra valencies:
+    </p>
+    <p>
+    Element            Case     Donated Electrons      Extra Valence
+    </p>
+    <p>
+    C                    I              1                    1
+    II             0                    0 N, P, As             I
+    2                    0                      II             1
+    1 O                    I              2                    0 S, Se
+    I              2                    0
+    </p>
+    <p>
+    The number of donated electrons is augmented or diminished by the
+    charge on the atom.
+    </p>
+    <p>
+    User-specified aromatics must obey the same rules. If they do not
+    an error is produced. A user-specified aromatic does, however,
+    indicate that a carbon is sp/sp2 hybridized even it only has
+    single bonds. It also changes slightly the way in which N, P and
+    As are handled.
+    </p>
+</div>
+
+<!-- =========================================================================================================================== -->
+<!-- Footer. -->
+<!-- =========================================================================================================================== -->
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<div class = "footer">
+    <div class = "validation">
+        <img src = "valid-xhtml10.gif" alt = "Valid XHTML 1.0 Strict" height = "31" width = "88" />
+    </div>
+    Generation time (GMT): Fri Nov 14 13:34:36 2014<br />
+    pDynamo version: 1.9.0
+</div>
+
+</body>
+</html>

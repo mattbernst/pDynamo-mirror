@@ -1,0 +1,17 @@
+---
+# . !Element
+Atomic Number             : 14
+Bragg Radius              : 1.1
+Covalent Radius           : 1.2
+Mass                      : 28.0855
+Name                      : Silicon
+Pauling Electronegativity : 1.9
+RGB Color Indices         : [240, 200, 160]
+Single Bond Distances     : {8: 1.64, 1: 1.46, 6: 1.87}
+Symbol                    : Si
+VdW Radius                : 2.1
+d Quantum Number          : 0
+f Quantum Number          : 0
+p Quantum Number          : 3
+s Quantum Number          : 3
+...

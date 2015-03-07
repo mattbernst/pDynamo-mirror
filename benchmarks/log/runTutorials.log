@@ -1,0 +1,56 @@
+
+Running tutorials ...
+
+Please be patient ... this will take some time ...
+
+Outputs and other files are in /home/administrator/Work/scratch/tutorials.
+
+--------------------------------------------------------------------------------
+Tutorial: aSmallProtein
+--------------------------------------------------------------------------------
+
+Setup                                             Pass                    4.177s
+RefineVacuumStructures                            Pass                    1.719s
+UnfoldVacuumStructures                            Pass                    2.867s
+GetSolvationInformation                           Pass                    0.499s
+MakeSolventBox                                    Pass               10m 25.130s
+SolvateSystem                                     Pass               11m 36.876s
+Dynamics                                          Pass                3m 56.378s
+Analysis                                          Pass                    1.642s
+** Totals **                                      8/8                 26m 9.288s
+
+--------------------------------------------------------------------------------
+Tutorial: dftQCModels
+--------------------------------------------------------------------------------
+
+DFTExample                                        Pass                    7.894s
+
+--------------------------------------------------------------------------------
+Tutorial: orca
+--------------------------------------------------------------------------------
+
+ORCAExample                                       Pass                   14.390s
+
+--------------------------------------------------------------------------------
+Tutorial: pdbFiles
+--------------------------------------------------------------------------------
+
+step1/PDBFileToModel                              Pass                    0.959s
+step3/PDBModelToSystem_0                          Error                   2.071s
+step3a/MakePDBComponentLibrary                    Pass                    0.767s
+step3/PDBModelToSystem_1                          Pass                   30.202s
+step4/GenerateMMModel_0                           Error                   1.886s
+step4/GenerateMMModel_1                           Pass                    3.899s
+step6/IdentifyUndefinedCoordinates3               Pass                    1.050s
+step6/HandBuild                                   Pass                    1.643s
+step7/RefineVacuumStructure                       Pass                2m 14.937s
+step8/GetSolvationInformation                     Pass                    1.108s
+step8/AddCounterIons                              Pass                    2.631s
+step8/MakeSolventBox                              Pass             2h 14m 4.066s
+step8/SolvateSystem                               Pass            2h  4m 59.573s
+step9/EquilibrateSolvatedStructure                Pass            2h  5m 29.198s
+** Totals **                                      12/14           6h 27m 33.991s
+
+--------------------------------------------------------------------------------
+
+Total time used:  6 Hours, 54 Minutes, 5.563 Seconds.

@@ -1,0 +1,141 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml:lang = "en" lang = "en">
+<head>
+    <title>pDynamo Python Module GaussianCubeFileWriter</title>
+    <link href = "documentationPages.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+
+<!-- =========================================================================================================================== -->
+<!-- Header. -->
+<!-- =========================================================================================================================== -->
+<div class = "header">
+
+    <!-- Title -->
+    <div class = "headertitle">
+        <h1 class = "header">pDynamo Library Reference</h1>
+    </div>
+
+    <!-- Searching -->
+    <div class = "searching">
+        <form action = "http://google.com/search" method = "get">
+            <div>
+                <input                  name = "domains"    type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sitesearch" type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sourceid"   type = "hidden" value = "google-search"   />
+                <input class = "text"   name = "q"          type = "text"                             />
+                <input class = "submit" name = "submit"     type = "submit" value = "Search Site"     />
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<h1 class = "title"><a id = "top">Python Module GaussianCubeFileWriter</a></h1>
+
+<p>Owner: <a href = "package0.html">Package pBabel</a></p>
+
+<p>Source File: pBabel-1.9.0/pBabel/GaussianCubeFileWriter.py</p>
+
+<div class = "description">
+    <p>
+    Classes and functions for writing Gaussian cube files.
+    </p>
+    <p>
+    The following is taken from VMD 1.8:
+    </p>
+    <p>
+    Write a formatted cubefile very similar to those created by the
+    gaussian program or the cubegen utility. The format is as follows
+    (last checked against gaussian 98):
+    </p>
+    <p>
+    Line   Format      Contents
+    ===============================================================  1
+    a           Title.  2     a           Description of the quantity
+    stored in the cubefile.  3     i5,3f12.6   #atoms,
+    x-,y-,z-coordinates of origin, X0, Y0, Z0  4     i5,3f12.6
+    #gridPoints, increment vector, N1, X1, Y1, Z1 - slowest running
+    direction.  5     i5,3f12.6   #gridPoints, increment vector, N2,
+    X2, Y2, Z2  6     i5,3f12.6   #gridPoints, increment vector, N3,
+    X3, Y3, Z3 - fastest running direction.
+    </p>
+    <p>
+    #atoms lines of atom coordinates:  ...   i5,4f12.6   Atom number,
+    charge, x-,y-,z-coordinate.
+    </p>
+    <p>
+    if #atoms is negative:  1 line 10i5       Number of orbitals and
+    their numbers.
+    </p>
+    <p>
+    rest: 6e13.5      Cube data (with z increment moving fastest,
+    then y and then x) unless there is more than
+    one orbital in which case the orbital number
+    increments fastest. Each row is written out
+    separately so there will be partly empty lines
+    unless N3 is a multiple of 6.
+    </p>
+    <p>
+    Other formats that appear to be possible are 6f12.6 and 3d23.16.
+    </p>
+    <p>
+    All coordinates are in atomic units.
+    </p>
+    <p>
+    The coordinates of the grid point (I1,I2,I3) are (Fortran
+    convention):
+    </p>
+    <p>
+    X0+(I1-1)*X1+(I2-1)*X2+(I3-1)*X3 Y0+(I1-1)*Y1+(I2-1)*Y2+(I3-1)*Y3
+    Z0+(I1-1)*Z1+(I2-1)*Z2+(I3-1)*Z3
+    </p>
+</div>
+
+<div class = "navigation">
+    <table class = "navigation" id = "iclasses">
+        <tr><th><a href = "#iclasses">Classes</a></th><td><a href = "#ifunctions">Functions</a></td><td>&nbsp;</td><td>&nbsp;</td><td><a href = "index.html">Index</a></td><td><a href = "http://www.pdynamo.org">Root</a></td><td><a href = "#top">Top</a></td></tr>
+    </table>
+</div>
+
+<h2>Classes</h2>
+
+<table class = "itemlist">
+    <tr><td class = "itemlist"><a href = "class91.html">GaussianCubeFileWriter</a></td><td class = "itemlist"><a href = "class251.html">RegularCubicGrid3</a></td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<div class = "navigation">
+    <table class = "navigation" id = "ifunctions">
+        <tr><td><a href = "#iclasses">Classes</a></td><th><a href = "#ifunctions">Functions</a></th><td>&nbsp;</td><td>&nbsp;</td><td><a href = "index.html">Index</a></td><td><a href = "http://www.pdynamo.org">Root</a></td><td><a href = "#top">Top</a></td></tr>
+    </table>
+</div>
+
+<h2>Functions</h2>
+
+<table class = "itemlist">
+    <tr><td class = "itemlist"><a href = "function65.html">GaussianCubeFile_FromSystemDensity</a></td><td class = "itemlist"><a href = "function67.html">GaussianCubeFile_FromSystemPotential</a></td></tr>
+    <tr><td class = "itemlist"><a href = "function66.html">GaussianCubeFile_FromSystemOrbitals</a></td><td>&nbsp;</td></tr>
+</table>
+
+<!-- =========================================================================================================================== -->
+<!-- Footer. -->
+<!-- =========================================================================================================================== -->
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<div class = "footer">
+    <div class = "validation">
+        <img src = "valid-xhtml10.gif" alt = "Valid XHTML 1.0 Strict" height = "31" width = "88" />
+    </div>
+    Generation time (GMT): Fri Nov 14 13:34:36 2014<br />
+    pDynamo version: 1.9.0
+</div>
+
+</body>
+</html>

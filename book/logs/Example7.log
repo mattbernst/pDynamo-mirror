@@ -1,0 +1,82 @@
+
+--------------------------------------------------------------------------------
+       Summary for System "bALA C7 equatorial configuration - MOL format."
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =             22  Number of Heavy Atoms  =             10
+Number of Hydrogens    =             12  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =             22  Bonds                  =             21
+Angles                 =             36  Dihedrals              =             41
+Isolates               =              1  Ring Sets              =              0
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                      Summary for Energy Model "OPLS/Full"
+--------------------------------------------------------------------------------
+
+------------------------------------ Summary for MM Model "OPLS" -----------------------------------
+LJ 1-4 Scaling                   =          0.500  El. 1-4 Scaling                  =          0.500
+Number of MM Atoms               =             22  Number of MM Atom Types          =              6
+Total MM Charge                  =           0.00  Fourier Dihedral Terms           =             29
+Fourier Dihedral Parameters      =             18  Harmonic Angle Terms             =             36
+Harmonic Angle Parameters        =             13  Harmonic Bond Terms              =             21
+Harmonic Bond Parameters         =              7  Fourier Out-Of-Plane Terms       =             12
+Fourier Out-Of-Plane Parameters  =              2  Exclusions                       =             98
+1-4 Interactions                 =             41  Lennard-Jones Form               =           OPLS
+Lennard-Jones Types              =              6  1-4 Lennard-Jones Form           =           OPLS
+1-4 Lennard-Jones Types          =              6
+----------------------------------------------------------------------------------------------------
+
+----------------------------- Full NB Model Summary ----------------------------
+Dielectric                =    1.000000  El. 1-4 Scaling           =    0.500000
+QC/MM Coupling            = RC Coupling
+--------------------------------------------------------------------------------
+
+Full NB Model State set up.
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -132.1730  RMS Gradient              =             None
+Fourier Dihedral          =          32.2094  Harmonic Angle            =           2.7080
+Harmonic Bond             =           0.6369  Fourier Out-Of-Plane      =           0.6421
+MM/MM Elect.              =        -283.2007  MM/MM 1-4 Elect.          =         107.3772
+MM/MM LJ                  =          -6.9641  MM/MM 1-4 LJ              =          14.4182
+------------------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -164.3814  RMS Gradient              =             None
+Fourier Dihedral          =          11.2199  Harmonic Angle            =           3.0675
+Harmonic Bond             =           0.4618  Fourier Out-Of-Plane      =           0.4134
+MM/MM Elect.              =        -299.4846  MM/MM 1-4 Elect.          =         109.8687
+MM/MM LJ                  =          -6.9933  MM/MM 1-4 LJ              =          17.0653
+------------------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -154.0439  RMS Gradient              =             None
+Fourier Dihedral          =          21.7572  Harmonic Angle            =           9.8287
+Harmonic Bond             =           1.3923  Fourier Out-Of-Plane      =           0.0710
+MM/MM Elect.              =        -300.5570  MM/MM 1-4 Elect.          =          99.6030
+MM/MM LJ                  =           0.7681  MM/MM 1-4 LJ              =          13.0929
+------------------------------------------------------------------------------------------
+
+--------------------------------- Summary of Energy Terms --------------------------------
+Potential Energy          =        -168.0294  RMS Gradient              =             None
+Fourier Dihedral          =          14.9293  Harmonic Angle            =           3.2370
+Harmonic Bond             =           0.9611  Fourier Out-Of-Plane      =           0.2536
+MM/MM Elect.              =        -303.4214  MM/MM 1-4 Elect.          =         103.2139
+MM/MM LJ                  =          -2.7316  MM/MM 1-4 LJ              =          15.5287
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------
+                Energy Model Results for bALA
+------------------------------------------------------------
+    Conformation           Energy              Dipole
+------------------------------------------------------------
+alpha                             -132.2               6.207
+c5                                -164.4               3.435
+c7ax                              -154.0               3.051
+c7eq                              -168.0               2.420
+------------------------------------------------------------

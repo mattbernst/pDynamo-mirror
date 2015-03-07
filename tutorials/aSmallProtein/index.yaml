@@ -1,0 +1,11 @@
+---
+# . Scripts to run:
+- Setup
+- RefineVacuumStructures
+- UnfoldVacuumStructures
+- GetSolvationInformation
+- MakeSolventBox
+- SolvateSystem
+- Dynamics
+- Analysis
+...

@@ -1,0 +1,7 @@
+f2c        df2c        ThirdParty
+f2cblas    df2cblas    ThirdParty  FullOptimization
+cblas      dcblas      ThirdParty  FullOptimization
+f2cdlamch  df2cdlamch  ThirdParty  NoOptimization
+f2clapack  df2clapack  ThirdParty  FullOptimization
+cprimme    dcprimme    ThirdParty
+csource    dcCore

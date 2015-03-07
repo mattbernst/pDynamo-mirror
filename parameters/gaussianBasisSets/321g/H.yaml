@@ -1,0 +1,7 @@
+# . !GaussianBasis
+Atomic Number: 1
+Is Spherical: false
+Normalized Primitives: true
+Primitive Fields: [Exponent, Coefficients]
+Shells: [{Primitives: [[5.447178, [0.156285]], [0.824547, [0.904691]]], Type: S},
+  {Primitives: [[0.183192, [1.0]]], Type: S}]

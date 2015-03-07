@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml" xml:lang = "en" lang = "en">
+<head>
+    <title>pDynamo Python Module CIPLabelFinder</title>
+    <link href = "documentationPages.css" rel = "stylesheet" type = "text/css" />
+</head>
+
+<body>
+
+<!-- =========================================================================================================================== -->
+<!-- Header. -->
+<!-- =========================================================================================================================== -->
+<div class = "header">
+
+    <!-- Title -->
+    <div class = "headertitle">
+        <h1 class = "header">pDynamo Library Reference</h1>
+    </div>
+
+    <!-- Searching -->
+    <div class = "searching">
+        <form action = "http://google.com/search" method = "get">
+            <div>
+                <input                  name = "domains"    type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sitesearch" type = "hidden" value = "www.pdynamo.org" />
+                <input                  name = "sourceid"   type = "hidden" value = "google-search"   />
+                <input class = "text"   name = "q"          type = "text"                             />
+                <input class = "submit" name = "submit"     type = "submit" value = "Search Site"     />
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<h1 class = "title"><a id = "top">Python Module CIPLabelFinder</a></h1>
+
+<p>Owner: <a href = "package3.html">Package pMoleculeScripts</a></p>
+
+<p>Source File: pMoleculeScripts-1.9.0/pMoleculeScripts/CIPLabelFinder.py</p>
+
+<div class = "description">
+    <p>
+    Script to find CIP labels for a molecule.
+    </p>
+    <p>
+    A concise, clear nice summary may be found in:
+    </p>
+    <p>
+    "Preferred IUPAC Names", Chapter 9, IUPAC (http://www.iupac.org)
+    </p>
+    <p>
+    The last CIP paper published by one of the eponymous authors:
+    </p>
+    <p>
+    V. Prelog and G. Helmchen "Basic Principles of the CIP-System and
+    Proposals for a Revision." Angew. Chem. Int. Ed. Engl. 1982, 21,
+    567-583.
+    </p>
+    <p>
+    A paper indicating some of the complications of applying them:
+    </p>
+    <p>
+    P. Mata, A. M. Lobo, C. Marshall and A. P. Johnson "Implementation
+    of the Cahn-Ingold-Prelog System for Stereochemical Perception in
+    the LHASA Program." J. Chem. Inf. Comp. Sci. 1994, 34, 491-504.
+    </p>
+    <p>
+    The rules for assignment of priority are complicated and only
+    those that make use of connectivity information are implemented
+    here. This means that priorities are determined using atomic
+    numbers, atomic masses and bond connectivities converted to
+    hierarchical digraphs.
+    </p>
+    <p>
+    Omitted are complications involving multiple Kekule structures for
+    a system (e.g. fractional dummy atoms) and all priority
+    comparisons involving stereocenters. The latter include things
+    such as the fact that like descriptor pairs (R/R, S/S) take
+    precedence over (R/S, S/R).
+    </p>
+    <p>
+    It would be good to try and differentiate between centers that are
+    clearly achiral (e.g. with > 1 bound Hs) and those that cannot be
+    determined.
+    </p>
+    <p>
+    Tetrahedral centers - lowest priority substituent at back with
+    a right-handed coordinate system:
+    </p>
+    <p>
+    R (rectus)   - clockwise (highest to lowest).    S (sinister) -
+    anticlockwise.
+    </p>
+    <p>
+    Double bond centers - two highest priority substituents:
+    </p>
+    <p>
+    E (Entgegen) - trans.    Z (Zusammen) - cis.
+    </p>
+    <p>
+    Amino acids in proteins are S at their Calpha atoms, except for
+    cysteine which is R. Isoleucine/threonine - sidechains?
+    </p>
+</div>
+
+<div class = "navigation">
+    <table class = "navigation" id = "ifunctions">
+        <tr><th><a href = "#ifunctions">Functions</a></th><td>&nbsp;</td><td>&nbsp;</td><td><a href = "index.html">Index</a></td><td><a href = "http://www.pdynamo.org">Root</a></td><td><a href = "#top">Top</a></td></tr>
+    </table>
+</div>
+
+<h2>Functions</h2>
+
+<table class = "itemlist">
+    <tr><td class = "itemlist"><a href = "function26.html">CIPLabelFinder</a></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<!-- =========================================================================================================================== -->
+<!-- Footer. -->
+<!-- =========================================================================================================================== -->
+
+<!-- Orange line separator. -->
+<div class = "orangeline">&nbsp;</div>
+
+<div class = "footer">
+    <div class = "validation">
+        <img src = "valid-xhtml10.gif" alt = "Valid XHTML 1.0 Strict" height = "31" width = "88" />
+    </div>
+    Generation time (GMT): Fri Nov 14 13:34:36 2014<br />
+    pDynamo version: 1.9.0
+</div>
+
+</body>
+</html>

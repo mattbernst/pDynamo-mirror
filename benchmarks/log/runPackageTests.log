@@ -1,0 +1,93 @@
+
+Running tests ...
+
+This may take a few minutes ...
+
+Outputs and other files are in /home/administrator/Work/scratch/packageTests.
+
+--------------------------------------------------------------------------------
+Tests for package pBabel-1.8.0:
+--------------------------------------------------------------------------------
+
+AmberTopCrdRead                                   Pass                    1.683s
+CharmmPSFRead                                     Pass                    1.399s
+EMSLBasisSetRead                                  Pass                    3.684s
+GaussianCubeFileWrite                             Pass                   28.815s
+GromacsTopCrdRead                                 Pass                    0.485s
+PDBComponentsFromSystems                          Pass                    0.087s
+PDBFileReadWrite                                  Pass                    4.303s
+PDBModelFileReadWrite                             Pass                    4.198s
+PDBModelToSystem                                  Pass                   31.657s
+SMILESReadWrite                                   Pass                    0.594s
+mmCIFFileReadWrite                                Pass                    5.307s
+
+--------------------------------------------------------------------------------
+Tests for package pCore-1.8.0:
+--------------------------------------------------------------------------------
+
+MoreThuenteLineSearching                          Pass                    0.013s
+
+--------------------------------------------------------------------------------
+Tests for package pGraph-0.1:
+--------------------------------------------------------------------------------
+
+FindRelevantCycles                                Pass                    0.303s
+
+--------------------------------------------------------------------------------
+Tests for package pMolecule-1.8.0:
+--------------------------------------------------------------------------------
+
+CrystalMMEnergies                                 Pass                   49.641s
+CrystalQCEnergies                                 Pass                1m 13.128s
+CrystalQCMMEnergies                               Pass                    6.787s
+DFTRKSEnergies                                    Fail                3m 12.272s
+DFTUKSEnergies                                    Pass                1m 36.104s
+DihydrogenDissociation                            Pass                    0.141s
+GridUpdating                                      Pass                2m 33.481s
+MNDOCIEnergies                                    Pass                1m 44.056s
+MNDOCIEnergiesQCMM                                Pass                   32.469s
+MNDOQCMMEnergies                                  Pass                   11.661s
+MNDORHFEnergies                                   Fail                   37.637s
+MNDOUHFEnergies                                   Pass                2m 46.388s
+MergePrune                                        Pass                    0.344s
+ONIOMEnergies                                     Pass                   29.193s
+OPLSProteinParameters                             Pass                 2m 2.995s
+ORCAEnergies                                      Pass                   53.890s
+PickleMM                                          Pass                   11.981s
+PickleQCMM                                        Pass                   12.395s
+QCMMWaterDimerBinding                             Pass                    0.367s
+RadiiOfGyration                                   Pass                    0.003s
+SQLAtomSelection                                  Pass                    3.081s
+SurfaceCrossing                                   Pass                   10.437s
+
+--------------------------------------------------------------------------------
+Tests for package pMoleculeScripts-1.8.0:
+--------------------------------------------------------------------------------
+
+FindCIPLabels                                     Pass                    0.005s
+FindPointGroups                                   Pass                    9.059s
+HydrogenBuilding                                  Pass                   15.165s
+IonMobilities                                     Pass                   25.239s
+OptimizeGeometries                                Pass                5m 31.308s
+PathwaysCOS                                       Pass                 1m 3.176s
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+('SCF procedure not converged.',)
+PathwaysHEB                                       Fail                1m 45.635s
+PathwaysNEB                                       Pass                   37.491s
+RotationTranslationRemoval                        Pass                    4.394s
+VibrationalDynamics                               Pass                 1m 0.773s
+
+--------------------------------------------------------------------------------
+
+42 tests out of 45 were successful.
+
+Total time used: 31 Minutes, 43.225 Seconds.

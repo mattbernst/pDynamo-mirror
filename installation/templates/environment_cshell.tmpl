@@ -1,0 +1,21 @@
+#!/bin/csh
+
+# . Cshell environment variables and paths to be added to a user's ".cshrc" file.
+# . Some of these values may need modifying (e.g. PDYNAMO_SCRATCH and PYTHONPATH).
+
+# . The root of the program.
+setenv PDYNAMO_ROOT       {pDynamoRoot}
+
+# . Package paths.
+setenv PDYNAMO_PBABEL           $PDYNAMO_ROOT/{pBabel}
+setenv PDYNAMO_PCORE            $PDYNAMO_ROOT/{pCore}
+setenv PDYNAMO_PMOLECULE        $PDYNAMO_ROOT/{pMolecule}
+setenv PDYNAMO_PMOLECULESCRIPTS $PDYNAMO_ROOT/{pMoleculeScripts}
+
+# . Additional paths.
+setenv PDYNAMO_PARAMETERS {parameters}
+setenv PDYNAMO_SCRATCH    {scratch}
+setenv PDYNAMO_STYLE      $PDYNAMO_PARAMETERS/ccsStyleSheets/defaultStyle.css
+
+# . The python path.
+setenv PYTHONPATH {pythonPath}
