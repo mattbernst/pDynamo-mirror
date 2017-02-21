@@ -1,6 +1,6 @@
 """Run the tutorials."""
 
-import glob, os.path, subprocess, time
+import glob, os.path, subprocess, time, sys
 
 from argparse import ArgumentParser
 from pCore    import CPUTime, YAMLUnpickle
@@ -12,7 +12,7 @@ from pCore    import CPUTime, YAMLUnpickle
 _ErrorExtension  = ".err"
 _LabelWidth      = 50
 _OutputExtension = ".log"
-_PythonCommand   = "python"
+_PythonCommand   = sys.executable
 _ScriptExtension = ".py"
 
 # . Index file name.
