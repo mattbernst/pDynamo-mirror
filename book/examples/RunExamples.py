@@ -3,7 +3,7 @@
 # . Some way of verifying the results of the examples is necessary (to do away with DifferenceLogs).
 # . Move this and DifferenceLogs to installation.
 
-import glob, os.path, subprocess, time
+import glob, os.path, subprocess, time, sys
 
 from Definitions import errorExtension, errorPath, logExtension, logPath, scratchPath, xhtmlExtension
 from optparse    import OptionParser
@@ -118,7 +118,7 @@ def RunExamples ( ):
             eFD   = open ( errorFile, "w" )
             oFD   = open ( logFile  , "w" )
             try:
-                process = subprocess.Popen ( [ "python", inFile ], stderr = eFD, stdout = oFD )
+                process = subprocess.Popen ( [ sys.executable, inFile ], stderr = eFD, stdout = oFD )
                 process.wait ( )
             except Exception as e:
                 eFD.write ( e )
